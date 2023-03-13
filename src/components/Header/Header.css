@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 20px;
+  gap: 50px;
+  background-color: transparent;
+  margin-bottom: -77px;
+  position: relative;
+}
+
+.active{
+  box-shadow: 0 0 10px 10px white;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #8EA076;
+}
+
+.subMenu {
+  position: absolute;
+  top: 130%;
+  left: 925px;
+  list-style-type: none;
+  margin-bottom: 15px;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.subMenuItem {
+  opacity: 0.5;
+}
+
+
+.assort {
+  cursor: pointer;
+}

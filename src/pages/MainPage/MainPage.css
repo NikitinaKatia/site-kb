@@ -1,0 +1,33 @@
+.MainPage{
+  background-image: url('../../../public/images/img3.jpg');
+  background-size: 1265px;
+  background-attachment: fixed;
+  padding: 100px;
+  height: 750px;
+  
+}
+
+.mainPageBlock1{
+  margin-top: 50px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 90px;
+  color: whitesmoke;
+}
+
+.mainPageBlock1Text{
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  margin-top: 100px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 40px;
+  color: whitesmoke;
+  border: 3px solid whitesmoke;
+  gap: 40px;
+}
+
+.mainPageBlock1Text p {
+  padding: 10px;
+  gap: 15px;
+  width: 33%;
+}

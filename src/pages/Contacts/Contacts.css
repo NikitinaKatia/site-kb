@@ -1,3 +1,7 @@
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
 .contactsConteiner {
   display: flex;
   justify-content: center;
@@ -25,24 +29,18 @@
 
 .contactUs {
   font-size: 60px;
-  font-family: 'Nanum Gothic', sans-serif;
-  color: whitesmoke;
-}
-
-.media {
-  text-align: center;
-  font-size: 40px;
-  font-family: 'Nanum Gothic', sans-serif;
   color: whitesmoke;
 }
 
 .socialMedia {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 1265px;
-  justify-content: center;
+  padding: 100px;
+  margin-top: 150px;
   background-color: #37745B;
   opacity: 0.9;
-  box-shadow: 0 -10px 10px 5px #37745B;
 }
 
 .socialMediaContainer {
@@ -69,8 +67,15 @@
 }
 
 .sotialMediaBtn {
-  background: transparent;
+  background: #37745B;
+  opacity: 0.9;
   padding: 10px;
   border: 2px solid whitesmoke;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.sotialMediaBtn:hover {
+  background-color: #fff;
+  color: #37745B;
 }
